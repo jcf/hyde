@@ -2,7 +2,7 @@
 ### Every Jekyll needs it's Hyde
 
 I wrote this little bundle of files to serve static assets using Sinatra
-so I could have a free hosting from Heroku.
+so I could have make use of the free hosting provided by Heroku.
 
 #### URL rewriting
 
