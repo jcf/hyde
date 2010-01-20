@@ -1,91 +1,87 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-
-  <title>jcf/hyde @ GitHub</title>
-
-  <style type="text/css">
-  body {
-    margin-top: 1.0em;
-    background-color: #fff;
-    font-family: "Helvetica,Arial,FreeSans";
-    color: #333;
-  }
-  #container {
-    margin: 0 auto;
-    width: 700px;
-  }
-  * { font: 12px 'Helvetica'; }
-  h1 { font-size: 3.8em; color: #666; margin-bottom: 3px; }
-  h1 .small { font-size: 0.4em; }
-  h1 a { text-decoration: none }
-  h2 { font-size: 1.5em; color: #666; }
-  h3 { text-align: center; color: #666; }
-  a { color: #FF0080; }
-  .description { font-size: 1.2em; margin-bottom: 30px; margin-top: 30px; }
-  pre { background: #eee; color: #333; padding: 15px;}
-  hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
-  .footer { text-align:center; padding-top:30px; font-style: italic; }
-  </style>
-
-</head>
-
-<body>
-  <a href="http://github.com/jcf/hyde"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
-
-  <div id="container">
-
-    <h1>
-      <a href="http://github.com/jcf/hyde">hyde</a>
-      <span class="small">by <a href="http://github.com/jcf">jcf</a></span>
-    </h1>
-
-    <div class="description">
-      Serve static files using Sinatra on Heroku with some clever URL rewriting
-    </div>
-
-    <p>
-      Clone the repo and run…
-    <p>
-
-      <pre>$ ruby app.rb</pre>
-
-      <h2>Dependencies</h2>
-
-      <pre>
-        rack
-        rack-test
-        sinatra
-      </pre>
-
-      <h2>Install</h2>
-      <p>git clone git://github.com/jcf/hyde.git</p>
-
-      <h2>Authors</h2>
-      <p>James Conroy-Finn (james@logi.cl)</p>
-
-      <h2>Contact</h2>
-      <p>James Conroy-Finn (james@logi.cl)</p>
-
-
-      <h2>Download</h2>
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <title>hyde</title>
+    <style type="text/css" media="screen">
+      body {
+        margin: 40px 0;
+        font-family: Helvetica, sans-serif;
+        font-size: 14px;
+      }
+      #container {
+        margin: 0 auto;
+        width: 500px;
+      }
+      h1 {
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", sans-serif;
+        font-weight: 300;
+        font-size: 36px;
+        color: #000;
+        text-align: center;
+      }
+      p {
+        color: #333;
+        text-align: justify;
+      }
+      p.signature {
+        color: #000;
+        font-weight: bold;
+      }
+      p.signature a {
+        color: #999;
+        font-weight: normal;
+      }
+      a {
+        color: #0080FF;
+        text-decoration: none;
+      }
+      a:hover {
+        color: #000;
+        text-decoration: underline;
+      }
+      a:active {
+        color: #FF0080;
+      }
+    </style>
+  </head>
+  <body id="hyde">
+    <div id="container">
+      <h1>
+        Every Jekyll needs it's Hyde
+      </h1>
       <p>
-        You can download this project in either
-        <a href="http://github.com/jcf/hyde/zipball/master">zip</a> or
-        <a href="http://github.com/jcf/hyde/tarball/master">tar</a> formats.
-      </p>
-      <p>You can also clone the project with <a href="http://git-scm.com">Git</a>
-        by running:
-        <pre>$ git clone git://github.com/jcf/hyde</pre>
+        This bundle of bits allows you to serve a static site using
+        <a href="http://www.sinatrarb.com">Sinatra</a>. You may think
+        why bother when you can just use
+        <a href="http://nginx.net">Nginx</a>?
       </p>
 
-      <div class="footer">
-        get the source code on GitHub : <a href="http://github.com/jcf/hyde">jcf/hyde</a>
-      </div>
+      <p>
+        How about free hosting from
+        <a href="http://heroku.com">Heroku</a>?
+      </p>
 
+      <p>
+        Clone the source from
+        <a href="git://github.com/jcf/hyde.git">
+          git://github.com/jcf/hyde.git
+        </a>
+        or browse the source at
+        <a href="http://github.com/jcf/hyde">
+          http://github.com/jcf/hyde
+        </a>
+      </p>
+
+      <p>
+        Hope you find it useful…
+      </p>
+
+      <p class="signature">
+        James
+        <br>
+        <a href="http://jamesconroyfinn.com">jamesconroyfinn.com</a>
+      </p>
     </div>
-
-
   </body>
-  </html>
+</html>
