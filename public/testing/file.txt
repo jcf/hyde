@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+respond = %w(sing dance rejoice cry laugh).sort_by { rand }.first
+
+def ruby_rocks
+  true # of course!
+end
+
+if ruby_rocks
+  puts "Your hands together and %s" % respond
+end
